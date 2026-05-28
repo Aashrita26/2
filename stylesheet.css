@@ -72,10 +72,10 @@ article {
 /* Images with Box Model */
 
 img {
-  max-width: 500px;
+  max-width: 1000px;
   width: 100%;
   height: auto;
-  border: 10px solid black;
+  border: 16px solid black;
   padding: 5px;
   border-radius: 15px;
 }
