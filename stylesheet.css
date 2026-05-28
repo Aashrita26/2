@@ -68,13 +68,6 @@ article {
   border-radius: 10px;
 }
 
-/* Grid layout */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  gap: 15px;
-  padding: 20px;
-}
 
 /* Images with Box Model */
 img {
