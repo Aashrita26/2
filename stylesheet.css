@@ -79,20 +79,21 @@ img {
   padding: 5px;
   border-radius: 15px;
 }
+img {
+  width: 150px;
+  height: auto;
+}
 
-
+.grid-container img,
+.flex-container img {
+  justify-self: center; /* centers in grid */
+  align-self: center;
+}
 
 /* nth-child selector */
 img:nth-child(even) {
   border-radius: 50%; 
 }
 
-/* Flex container  */
-
-flex-container img {
-  width: 200px;
-  height: auto;
-  flex: 0 0 auto; 
-}
 
 
